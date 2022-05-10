@@ -80,7 +80,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Email atau NIK yang digunakan sudah terdaftar!
+                        NIK yang digunakan sudah terdaftar!
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
