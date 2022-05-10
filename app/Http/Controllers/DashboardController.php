@@ -12,7 +12,7 @@ class DashboardController extends Controller{
             return redirect()->route('login');
         }
 
-        $data = Perjalanan::where('id_user', auth()->user()->id)->paginate(10);
+        $data = Perjalanan::where('id_user', auth()->user()->id)->paginate(3);
         return view('pages.dashboard.data', ['data' => $data]);
     }
 
