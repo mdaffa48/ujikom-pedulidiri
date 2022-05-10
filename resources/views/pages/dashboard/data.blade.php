@@ -81,7 +81,7 @@
                                         <th scope="col">#</th>
                                         <th scope="col">Tanggal
                                             <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-outline-primary dropdown-toggle float-right text-sm"
+                                                <button type="button" class="btn btn-sm dropdown-toggle float-right text-sm"
                                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -92,7 +92,7 @@
 
                                                         <button class="dropdown-item" type="submit">Terbaru</button>
                                                     </form>
-                                                    
+
                                                     <form action="/sort" method="GET">
                                                         @csrf
                                                         <input type="hidden" name="sort_item" value="tanggal">
@@ -105,7 +105,7 @@
                                         </th>
                                         <th scope="col">Jam
                                             <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-outline-primary dropdown-toggle float-right text-sm"
+                                                <button type="button" class="btn btn-sm dropdown-toggle float-right text-sm"
                                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -130,7 +130,7 @@
                                         <th scope="col">Lokasi</th>
                                         <th scope="col">Suhu
                                             <div class="btn-group" role="group">
-                                                <button type="button" class="btn btn-outline-primary dropdown-toggle float-right text-sm"
+                                                <button type="button" class="btn btn-sm dropdown-toggle float-right text-sm"
                                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
