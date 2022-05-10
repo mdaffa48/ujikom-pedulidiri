@@ -22,7 +22,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {
     return redirect('/dashboard');
 });
-Route::get('/dashboard', [PerjalananController::class, 'index'])->name('dashboard');
+
+Route::get('/dashboard', function() {
+    return view('pages.dashboard.main');
+})->name('dashboard');
 
 // Login
 Route::get('/login', function() {
