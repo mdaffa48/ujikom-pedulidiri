@@ -1,5 +1,11 @@
-## Soal Ujikom 2022
-https://docs.google.com/document/d/1fNivD36eo8nNYGFYrOIN2MNTrap52URU/edit?usp=sharing&ouid=104037613750818271603&rtpof=true&sd=true
+## Useful Links
+<a href="https://docs.google.com/document/d/1fNivD36eo8nNYGFYrOIN2MNTrap52URU/edit?usp=sharing&ouid=104037613750818271603&rtpof=true&sd=true" target="_blank">
+    Soal Ujikom 2022
+</a>
+<br>
+<a href="https://docs.google.com/presentation/d/1VTJVG9bje3Rk6uVaATe_ENUa_OKv09d7/edit?usp=sharing&ouid=104037613750818271603&rtpof=true&sd=true" target="_blank">
+    Power Point Aplikasi Peduli Diri
+</a>
 
 ## Login Page
 <img src="https://i.imgur.com/KCzC6zw.png">
