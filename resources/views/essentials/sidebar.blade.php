@@ -14,7 +14,7 @@
                         Perjalanan</span></a></li>
 
             <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
-                <a href="https://github.com/aglerr/perjalanan-stisla" target="_blank"
+                <a href="https://github.com/mdaffa48/ujikom-pedulidiri" target="_blank"
                     class="btn btn-primary btn-lg btn-block btn-icon-split">
                     <i class="fab fa-github"></i> GitHub
                 </a>
