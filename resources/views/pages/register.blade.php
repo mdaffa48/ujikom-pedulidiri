@@ -23,28 +23,23 @@
                                 <form method="POST" action="/simpanUser">
                                     @csrf
 
-                                    <div class="row">
-                                        <div class="form-group col-6">
-                                            <label for="name">Nama Lengkap</label>
-                                            <input id="name" type="text" class="form-control" name="name" autofocus>
-                                        </div>
-                                        <div class="form-group col-6">
-                                            <label for="nik">NIK</label>
-                                            <input id="nik" type="text" class="form-control" name="nik">
+                                    <div class="form-group">
+                                        <label for="nik">NIK</label>
+                                        <input id="nik" type="text" class="form-control" name="nik" tabindex="1"
+                                            autofocus>
+                                        <div class="invalid-feedback">
+                                            Kolom NIK tidak boleh kosong
                                         </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input id="email" type="email" class="form-control" name="email">
-                                        <div class="invalid-feedback">
+                                        <div class="d-block">
+                                            <label for="name" class="control-label">Nama Lengkap</label>
                                         </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="password">Kata Sandi</label>
-                                        <input id="password" type="password" class="form-control" name="password">
+                                        <input id="name" type="text" class="form-control" name="name"
+                                            tabindex="2">
                                         <div class="invalid-feedback">
+                                            Kolom nama lengkap tidak boleh kosong
                                         </div>
                                     </div>
 

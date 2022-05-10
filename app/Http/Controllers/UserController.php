@@ -16,12 +16,9 @@ class UserController extends Controller
 
     public function simpanUser(Request $request)
     {
-
         $validator = Validator::make($request->all(), [
             'name' => 'required',
-            'email' => 'required|unique:users,email',
-            'nik' => 'required|unique:users,nik',
-            'password' => 'required'
+            'nik' => 'required|unique:users,email',
         ]);
 
         if ($validator->fails()) {
@@ -30,9 +27,8 @@ class UserController extends Controller
 
         $data = [
             'name' => $request->name,
-            'email' => $request->email,
-            'nik' => $request->nik,
-            'password' => bcrypt($request->password)
+            'email' => $request->nik,
+            'password' => bcrypt($request->nik)
         ];
 
         User::create($data);

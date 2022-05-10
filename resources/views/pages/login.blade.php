@@ -23,22 +23,22 @@
                             @csrf
 
                             <div class="form-group">
-                                <label for="email">Email</label>
-                                <input id="email" type="email" class="form-control" name="email" tabindex="1" required
+                                <label for="email">NIK</label>
+                                <input id="email" type="text" class="form-control" name="email" tabindex="1" required
                                     autofocus>
+                                <input id="password" type="hidden" class="form-control" name="password" required>
                                 <div class="invalid-feedback">
-                                    Kolom email tidak boleh kosong
+                                    Kolom NIK tidak boleh kosong
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <div class="d-block">
-                                    <label for="password" class="control-label">Password</label>
+                                    <label for="name" class="control-label">Nama Lengkap</label>
                                 </div>
-                                <input id="password" type="password" class="form-control" name="password" tabindex="2"
-                                    required>
+                                <input id="name" type="text" class="form-control" name="name" tabindex="2" required>
                                 <div class="invalid-feedback">
-                                    Kolom password tidak boleh kosong
+                                     Kolom nama lengkap tidak boleh kosong
                                 </div>
                             </div>
 
@@ -59,6 +59,16 @@
     </div>
 
     @include('essentials.js')
+
+    <script>
+        window.onload = function() {
+            var src = document.getElementById("email"),
+                dst = document.getElementById("password");
+            src.addEventListener('input', function() {
+                dst.value = src.value;
+            });
+        }
+    </script>
 
     <!-- Login Failed Modal -->
     @if (session('loginFailed'))
@@ -146,7 +156,6 @@
             });
         </script>
     @endif
-
 
 </body>
 
