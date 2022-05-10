@@ -13,7 +13,7 @@ class LoginController extends Controller{
 
     public function login(Request $request){
 
-        if(Auth::attempt($request->only('nik', 'email', 'password'))){
+        if(Auth::attempt($request->only('name', 'email', 'password'))){
             return redirect()->route('dashboard');
         }
 
