@@ -14,7 +14,7 @@
             <div class="dropdown-menu dropdown-menu-right">
                 <div class="dropdown-title">
                     User Id:    {{ auth()->user()->id }}<br>
-                    NIK:        {{ auth()->user()->nik }}
+                    NIK:        {{ auth()->user()->email }}
                 </div>
                 <div class="dropdown-divider">
                 </div>
