@@ -80,7 +80,8 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        NIK yang digunakan sudah terdaftar!
+                        • NIK yang digunakan sudah terdaftar<br>
+                        • NIK minimal harus memiliki 16 digit
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
