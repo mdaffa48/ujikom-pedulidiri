@@ -24,6 +24,9 @@ Route::get('/', function() {
 });
 
 Route::get('/dashboard', function() {
+    if (is_null(auth()->user())){
+        return redirect()->route('login');
+    }
     return view('pages.dashboard.main');
 })->name('dashboard');
 
